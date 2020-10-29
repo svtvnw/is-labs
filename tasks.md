@@ -75,3 +75,9 @@ Example 2:
 
 You have several agents that need to from a group. In order to do that agents have to select
 a leader within a group. So, they communicate with each other to somehow select a leader.
+
+Example 3:
+
+You have several agents and bunch of tasks for them. Each task require particular skill from an
+agent and each agent has a unique skill. So, agents need to re-distribute tasks across them so
+all tasks can be completed.
