@@ -70,3 +70,8 @@ conditions, i.e. seller wants to get maximum profit and won't sell if price is b
 some MIN_SELL_PRICE; buyer wants to buy at minimum possible price and won't buy if price
 is above some MAX_BUY_PRICE. So, those agents communicate with each other trying to either
 agree on the price or conclude that the deal can't be performed.
+
+Example 2:
+
+You have several agents that need to from a group. In order to do that agents have to select
+a leader within a group. So, they communicate with each other to somehow select a leader.
