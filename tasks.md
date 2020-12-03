@@ -81,3 +81,39 @@ Example 3:
 You have several agents and bunch of tasks for them. Each task require particular skill from an
 agent and each agent has a unique skill. So, agents need to re-distribute tasks across them so
 all tasks can be completed.
+
+## Lab 3: Image recognition (classic algorithms)
+
+The task is to build a simple app, which can detect and/or recognize some objects on an image
+or in a video.
+
+Requirements:
+- you should use one of the methods I've shown you at the lecture: Haar cascades or
+  [KNN](https://www.unite.ai/what-is-k-nearest-neighbors/) (or both)
+- programming language is not really important (C++, python)
+- you can choose any framework you want (like OpenCV, sklearn)
+
+Example 1:
+
+Find an [existing trained Haar cascade](https://github.com/opencv/opencv/tree/master/data/haarcascades)
+and use it to detect some objects on an image or in a video.
+Play around various configuration options you can specify to see how they affect result and what
+do they mean.
+Try to gather some performance data, i.e. how fast (or slow) is using Haar cascades to detect something
+on images of different sizes or using different configuration options.
+As a bonus, you can [try to train your own cascade](https://pythonprogramming.net/haar-cascade-object-detection-python-opencv-tutorial/)
+and use it.
+
+Example 2:
+
+Use KNN to automatically classify some images
+
+Example 3:
+
+Use KNN to recognize objects on an image: for example you can try to [recognize handwriting](https://aigeekprogrammer.com/k-nearest-neighbors-handwriting-recognition/)
+(letters or symbols) or try to recognize [persons on photos](https://medium.com/analytics-vidhya/face-recognition-using-knn-open-cv-9376e7517c9f).
+
+Example 4:
+
+Combine Haar cascades and KNN, i.e. at first you will need to detect whether object is even present
+on the image and only then try and recognize it.
